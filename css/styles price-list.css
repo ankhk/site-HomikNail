@@ -1,0 +1,175 @@
+body {
+	color: #8f8f8f;
+	font: 12px, sans-serif; /* шрифт без засечек */
+	background-color: #D8BFD8;
+	border-top: 5px solid #7e7e7e; /* полоска сверху */
+	margin: 0;
+}
+
+.wrapper { /* блок, куда входят меню, цитата, таблица */
+	text-align: left;
+	margin: auto;
+}
+
+nav a {
+	text-decoration: none; /* убирает подчеркивания для ссылок */
+}
+nav ul { /* длинная серая полоска */
+	margin: 0;
+	padding: 15px;
+    background: #D8BFD8;
+    text-align: center;
+}
+nav li {
+	list-style-position: inside;
+	font: 25px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+.top-menu li {/* главная */
+	display: inline-block;
+	padding: 10px 30px;
+	margin: auto;
+    color: #fff;
+}
+.top-menu a { /* цвет шрифтов для прайс-лист, блог ... */
+	color: #000;
+}
+
+.heading { /* Добро пожаловать в мой мир нейл-арта! */
+	background: #333;
+    text-align: center;
+    padding: 10px;
+}
+h1 {
+	display: inline-block;
+	color: #6969696;
+	font: 40px/40px 'Oswald', sans-serif;
+	margin: 0;
+	padding: 0 10px;
+}
+
+aside { /* меню слева (сайдбар) */
+	float: left;
+	width: 300px;
+}
+section {
+	margin-left: 280px;
+	padding-bottom: 20px;
+}
+.aside-menu li { /* Я - мастер Милена */
+	font-weight: 500;
+	border-top: 3px solid #e7e7e7; /* белые линии */
+    color: #696969;
+}
+.aside-menu li:first-child {
+	border: none;
+}
+.aside-menu li.active { /* Коротко обо мне */
+	color: #696969;
+    display: inline-block;
+}
+
+blockquote p { /* "Красота спаёт мир" */
+	color: #696969;
+	font-style: italic;
+	font-size: 40px;
+	margin: 0;
+    text-align: right;
+}
+blockquote cite { /* Ф.м. Достоевский "идиот" */
+	display: block;
+	font-size: 25px;
+	font-style: normal;
+	color: #696969;
+	margin: 0;
+	text-align: right;
+}
+
+.table { /* блок таблицы */
+  margin-left: 200px;
+  margin-right: 250px;
+}
+table { /* таблица "Прайс-лист" */
+  width: 700px;   
+}
+caption { /* заголовок таблицы */
+  background: #FFC0CB;
+  border-bottom: 1px solid #fff;
+  color: #000;
+  border-top: 1px solid transparent;
+  padding: 12px;
+  font-size: 28px;
+}
+td { /* ячейки таблицы */
+  background: #D8BFD8;
+  border-bottom: 1px solid #fff;
+  color: #000;
+  padding: 8px;
+  font-size: 25px;
+}
+tr:hover td {background: #BC8F8F;}
+
+.footer {
+	background: #626262;
+	color: #D8BFD8;
+	font-size: 30px;
+} 
+#footer {
+    background: #333;
+	margin: auto;
+	height: 165px;
+}
+footer a { /* цвет ссылок */
+	color: #fff;
+    background: #333;
+}
+#sitemap { /* Карта сайта */
+	width: 150px;
+	float: left;
+	margin-left: 100px;
+	margin-right: 185px;
+    text-align: center;
+}
+#sitemap div {
+	display: inline-block;
+}
+#sitemap a { /* главная, прайс-лист, календарь событий */
+	display: block;
+	text-decoration: none;
+	font-size: 15px;
+	margin-bottom: 8px;
+}
+#sitemap a:hover {
+	text-decoration: underline;
+}
+#social {
+	float: left;
+	margin-left: 20px;
+    margin-right: 20px;
+	width: 350px;
+    text-align: center;
+}
+#social div {
+	display: inline-block;
+}
+#email {
+    width: 300px;
+	float: right;
+	margin-top: 0px;
+	text-align: center;
+    margin-left: 30px;
+    margin-right: 100px;
+}
+#email div {
+	display: inline-block;
+    background: #333;
+}
+
+.copyright {
+    background: #2c2c2c;
+    text-align: center;
+    padding: 16px;
+    font: 15px 'Oswald', sans-serif;
+    color: #D8BFD8;
+}
